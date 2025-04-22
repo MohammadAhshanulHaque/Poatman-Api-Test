@@ -1,11 +1,15 @@
-For API testing I use Postman which is an API testing tool.
+For API testing, I use Postman, which is an API testing tool.
 
 Environment Setup for API testing:
 
-a. At first I use the below cmd from VS code editor to run the "inde.js" file by eneter the mokedAPI folder 
+a. At first, I use the below command from VS code editor to run the "inde.js" file by entering the mockedAPI folder 
+  
   cd .\mockedAPI\
+  
   node index.js
-Then I got the [Application listening on PORT 9999]
+
+Then I got the 
+[Application listening on PORT 9999]
 
 b. Secondly I moved the storage folder which contain "account.json" file under mokedAPI folder
 
