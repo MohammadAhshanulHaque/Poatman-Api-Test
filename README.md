@@ -2,11 +2,11 @@ For API testing, I use Postman, which is an API testing tool.
 
 Environment Setup for API testing:
 
-a. At first, I use the below command from VS code editor to run the "inde.js" file by entering the mockedAPI folder 
+a. At first, I use the below command from the VS code editor to run the "inde.js" file by entering the mockedAPI folder 
   
-  cd .\mockedAPI\
+    cd .\mockedAPI\
   
-  node index.js
+    node index.js
 
 Then I got the 
 
@@ -20,10 +20,12 @@ d. To create the body in case of "POST" request in POSTMAN, I followed the  scri
 
    const {username, name, password, favouriteFruit, favouriteMovie, favouriteNumber} = req.body;
   
-e. To create the body in case of "Put" request in POSTMAN, I used the  script line below from "index.js" of the mockedAPI folder: 
+e. To create the body in case of "PUT" request in POSTMAN, I used the  script line below from "index.js" of the mockedAPI folder: 
 
    const {name, password, favouriteFruit, favouriteMovie, favouriteNumber} = req.body;
 
-f. To create scripts in POSTMAN, I go to scripts -> post-response -> </> snippets 
+f. In case of the body section of POSTMAN, I followed the script format from the "account.json" file under the storage folder, which I moved under the mockedAPI folder
 
-f. Finally, save all the API requests in the collection [QA Quiz Challenge-API Test Script] & run
+g. To create scripts in POSTMAN, I go to scripts -> post-response -> </> snippets 
+
+h. Finally, save all the API requests in the collection [QA Quiz Challenge-API Test Script] & run
